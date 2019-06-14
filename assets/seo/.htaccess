@@ -1,0 +1,26 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+Redirect 301 /pro-nas/index.html https://koretska-legal.com/pro-nas/
+Redirect 301 /zakonodavstvo/index.html https://koretska-legal.com/zakonodavstvo/
+Redirect 301 /zvorotniy/index.html https://koretska-legal.com/zvorotniy/
+Redirect 301 /poslugi/index.html https://koretska-legal.com/poslugy/
+Redirect 301 /poslugi/aresht-koshtiv.html https://koretska-legal.com/poslugy/aresht-koshtiv/
+Redirect 301 /poslugi/primusove-vzodzhennya.html https://koretska-legal.com/poslugy/primusove-vhodzhennya/
+Redirect 301 /poslugi/aresht-mayna.html https://koretska-legal.com/poslugy/aresht-mayna/
+Redirect 301 /poslugi/rozshuk-mayna.html https://koretska-legal.com/poslugy/rozshuk-mayna/
+Redirect 301 /poslugi/styagnennya-za-dohodi.html https://koretska-legal.com/poslugy/styagnennya-za-dohodi/
+Redirect 301 /poslugi/styagnennya-na-prava.html https://koretska-legal.com/poslugy/styagnennya-na-prava/
+Redirect 301 /poslugi/obmezhennya-u-viizdi.html https://koretska-legal.com/poslugy/obmezhennya-u-viizdi/
+Redirect 301 /poslugi/prityagnennya-do-vidpovidalnosti.html https://koretska-legal.com/poslugy/prityagnennya-do-vidpovidalnosti/
+
+</IfModule>
+
+# END WordPress
