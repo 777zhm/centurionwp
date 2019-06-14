@@ -26,12 +26,8 @@
 				<?php wp_nav_menu( array('theme_location' => 'main_menu') ); ?>
 			</div>
 			<div class="header_contacts col-lg-3 d-none d-lg-block text-center">
-				<a href="tel:<?php the_field('admin_tel_1', 'theme_settings'); ?>"><?php the_field('admin_tel_1', 'theme_settings'); ?></a>
+				<a href="tel:<?php the_field('admin_tel', 'theme_settings'); ?>"><?php the_field('admin_tel', 'theme_settings'); ?></a>
 				<a href="mailto:<?php the_field('admin_email', 'theme_settings'); ?>"><?php the_field('admin_email', 'theme_settings'); ?></a>
-			</div>
-
-			<div class="lang_menu col-lg-1 col-md-1 col-sm-3 col-3 text-center">
-				<?php wp_nav_menu( array('theme_location' => 'lang_menu') ); ?>
 			</div>
 		</div>
 	</div>

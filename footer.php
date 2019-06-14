@@ -9,9 +9,7 @@
 						<img src="<?php assets_url('img/svg/telephone.svg') ?>" alt="telephone">
 					</div>
 					<div class="contacts_link">
-						<a href="tel:<?php the_field('admin_tel_1', 'theme_settings'); ?>"><?php the_field('admin_tel_1', 'theme_settings'); ?></a>
-						<br>
-						<a href="tel:<?php the_field('admin_tel_2', 'theme_settings'); ?>"><?php the_field('admin_tel_2', 'theme_settings'); ?></a>
+
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-12 contacts_item">
