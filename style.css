@@ -261,8 +261,56 @@ a:hover{
 
 /* End Main page */ 
 /* Start About us page */ 
+.aboutus_heroscreen{
+	background: linear-gradient( rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4) ), url(assets/img/goals_bg.jpg);
+	-webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 600px;
+}
 
+.aboutus_heroscreen .page_heading{
+	margin-top: 200px;
+}
 
+.aboutus_heroscreen .page_heading h1{
+	color: #ffffff;
+}
+
+.aboutus_heroscreen .section_subtitle{
+	color: #ffffff;
+	font-size: 16px;
+	font-family: 'San Francisco Text Regular';
+}
+
+.aboutus_heroscreen .section_subtitle strong{
+	color: #ffffff;
+	font-size: 16px;
+	font-family: 'San Francisco Text Semibold';
+}
+
+.aboutus_section{
+	margin-top: 50px;
+}
+
+.founder_item{
+	padding: 50px;
+}
+
+.founder_item_image_box img{
+	background-color: #C8CFE1;
+	border-radius: 50%;
+	width: 242px;
+	height: 242px;
+	margin: auto;
+}
+
+.founder_item h3{
+	color: #3158af;
+	font-family: 'San Francisco Text Semibold';
+	font-size: 21px;
+}
 
 /* End About us page */ 
 /* Start Goals page */ 
@@ -294,7 +342,6 @@ a:hover{
 	font-size: 16px;
 	font-family: 'San Francisco Text Semibold';
 }
-
 
 .ukraine_map, .switzerland_map{
     -webkit-background-size: contain;
