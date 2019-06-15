@@ -27,16 +27,6 @@ function my_acf_init() {
             'icon'              => 'admin-page',
             'keywords'          => array( 'features, acf' ),
         ));
-        
-        acf_register_block(array(
-            'name'              => 'lawlinks',
-            'title'             => __('Law links'),
-            'description'       => __('A custom links block.'),
-            'render_callback'   => 'custom_block_render_callback',
-            'category'          => 'formatting',
-            'icon'              => 'admin-page',
-            'keywords'          => array( 'lawlinks, acf' ),
-        ));
 
         acf_register_block(array(
             'name'              => 'mainscreen',
@@ -46,36 +36,6 @@ function my_acf_init() {
             'category'          => 'formatting',
             'icon'              => 'admin-page',
             'keywords'          => array( 'mainscreen, acf' ),
-        ));
-
-        acf_register_block(array(
-            'name'              => 'seosection',
-            'title'             => __('Seo section'),
-            'description'       => __('A custom seo text block.'),
-            'render_callback'   => 'custom_block_render_callback',
-            'category'          => 'formatting',
-            'icon'              => 'admin-page',
-            'keywords'          => array( 'seosection, acf' ),
-        ));
-
-        acf_register_block(array(
-            'name'              => 'seolistsection',
-            'title'             => __('Seo list section'),
-            'description'       => __('A custom seo list and text block.'),
-            'render_callback'   => 'custom_block_render_callback',
-            'category'          => 'formatting',
-            'icon'              => 'admin-page',
-            'keywords'          => array( 'seolistsection, acf' ),
-        ));
-
-        acf_register_block(array(
-            'name'              => 'services',
-            'title'             => __('Services links'),
-            'description'       => __('A custom services links block.'),
-            'render_callback'   => 'custom_block_render_callback',
-            'category'          => 'formatting',
-            'icon'              => 'admin-page',
-            'keywords'          => array( 'services, acf' ),
         ));
 
     }

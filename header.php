@@ -7,7 +7,7 @@
 
 	<meta name="description" content="centurion group">
 	
-	<title><?php echo "centurion group"; ?></title>
+	<title></title>
 	<?php wp_head(); ?>
 </head>
 
@@ -25,10 +25,7 @@
 			<div class="main_menu col-lg-7 d-none d-lg-block text-center">
 				<?php wp_nav_menu( array('theme_location' => 'main_menu') ); ?>
 			</div>
-			<div class="header_contacts col-lg-3 d-none d-lg-block text-center">
-				<a href="tel:<?php the_field('admin_tel', 'theme_settings'); ?>"><?php the_field('admin_tel', 'theme_settings'); ?></a>
-				<a href="mailto:<?php the_field('admin_email', 'theme_settings'); ?>"><?php the_field('admin_email', 'theme_settings'); ?></a>
-			</div>
+			
 		</div>
 	</div>
 	<div id="burger_nav" class="burger_nav">

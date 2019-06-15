@@ -7,27 +7,11 @@ Version: 1.00
 Text Domain: centurion
 */
 
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:600&display=swap&subset=cyrillic-ext');
 
-@font-face {
-    font-family: 'GothamPro';
-    src: url('assets/fonts/GothamPro/GothamPro.woff2') format('woff2'),
-    url('assets/fonts/GothamPro/GothamPro.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Georgia';
-    src: url('assets/fonts/Georgia/Georgia.woff2') format('woff2'),
-    url('assets/fonts/Georgia/Georgia.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
 
 body {
-    font-family: Georgia, sans-serif;
-    line-height: 1.4;
+    
+    
 }
 
 a{
@@ -39,16 +23,7 @@ a:hover{
     text-decoration: none;
 }
 
-.section_heading{
-    font-size: 36px;
-    letter-spacing: 1.5px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-}
 
-.site-main{
-    padding-bottom: 36px;
-}
 /* Start Header and Footer */
 .header{
     background-color: #2b4261;
@@ -56,102 +31,6 @@ a:hover{
     max-height: 84px;
 }
 
-.header .logotype img{
-        max-height: 76px;
-        width: auto;
-        margin-top: 4px;
-}
-
-.header_contacts{
-    color: #ffffff;
-    font-family: "GothamPro", sans-serif;
-}
-
-.header .flag{
-    width: 35px;  
-}
-
-.header .trident{
-    width: 21px;
-}
-
-.footer{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
-    background-size: cover;
-    font-family: GothamPro, sans-serif;
-
-}
-
-.footer a{
-    color: #ffffff;
-}
-
-.footer .contacts_item{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-
-    padding-bottom: 18px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.footer .contacts_icon{
-    min-width: 40px;
-    text-align: center;
-
-    -webkit-transition: -webkit-transform 0.3s;
-    transition: -webkit-transform 0.3s;
-    -o-transition: transform 0.3s;
-    transition: transform 0.3s;
-    transition: transform 0.3s, -webkit-transform 0.3s;
-}
-
-.footer .contacts_icon img{
-   max-width: 44px;
-   height: auto;
-}
-
-.footer .contacts_item:hover .contacts_icon{
-    -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-            transform: scale(1.2);
-}
-
-.footer .contacts_link{
-    text-align: left;
-    padding-left: 8px;
-
-    -webkit-transition: -webkit-transform 0.3s;
-    transition: -webkit-transform 0.3s;
-    -o-transition: transform 0.3s;
-    transition: transform 0.3s;
-    transition: transform 0.3s, -webkit-transform 0.3s;
-}
-
-.footer .contacts_item:hover .contacts_link{
-    -webkit-transform: scale(1.06);
-        -ms-transform: scale(1.06);
-            transform: scale(1.06);
-}
-
-
-.footer .logotype img{
-    max-height: 120px;
-    width: auto;
-    margin-top: 40px;
-    margin-bottom: 50px;
-}
 
 /* End Header and Footer */
 /* Start Main Menu */
@@ -178,7 +57,7 @@ a:hover{
     padding: 5px 0 5px;
     font-size: 1em;
     font-weight: 700;
-    font-family: "GothamPro", sans-serif;
+
     text-transform: uppercase;
     color: #ffffff;
 
@@ -211,63 +90,6 @@ a:hover{
 }
 
 /* End Main Menu */
-/* Start Lang Menu */
-.lang_menu {
-    text-align: right;
-    font-size: 1em;
-}
-
-.lang_menu ul {
-    list-style: none;
-    padding-left: 0;
-    margin-bottom: 0;
-}
-
-.lang_menu ul li {
-    display: inline-block;
-    margin-left: 26px;
-    font-size: 1em;
-}
-
-.lang_menu ul li a {
-    display: inline-block;
-    position: relative;
-    padding: 5px 0 5px;
-    font-size: 1em;
-    font-weight: 600;
-    font-family: "GothamPro", sans-serif;
-    text-transform: uppercase;
-    color: #ffffff;
-
-}
-
-.lang_menu ul li a:hover {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.lang_menu ul li a:after {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    
-    bottom: 0;
-    left: 0;
-    border-bottom: 2px solid #ffffff;
-    border-radius: 2px;
-
-    width: 0%;
-    -webkit-transition: all 0.4s ease-out;
-    -moz-transition: all 0.4s ease-out;
-    -o-transition: all 0.4s ease-out;
-    transition: all 0.4s ease-out;
-}
-
-.lang_menu ul li a:hover:after {
-    width: 100%;
-}
-
-/* End Lang Menu */
 /* Start Mobile Menu */
 .burger_open_box {
     text-align: right;
@@ -330,460 +152,39 @@ a:hover{
 }
 /* End Mobile Menu */
 /* Start Buttons */
-.callback {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-size: 21px;
-    letter-spacing: 1.5px;
-    color: black;
-    margin-bottom: 110px;
-    padding: 13px 20px;
-    border: 2px solid #83817F;
-    border-radius: 7px;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.callback:hover {
-    color: #6C7E9B;
-    border-color: #6C7E9B;
-    border-left: 12px solid #6C7E9B;
-    border-right: 12px solid #6C7E9B;
-}
-
-.callback:hover .callback_icon path{
-    fill: #6C7E9B;
-}
-
-.callback_icon {
-    width: 17px;
-    margin-right: 10px;
-    max-height: 30px;
-}
-
-.button_submit{
-    display: block;
-    padding: 15px 30px;
-    margin: 30px auto 0px;
-    background-color: #a8d7ef;
-    border: none;
-    -webkit-border-radius: 29px;
-    border-radius: 29px;
-    font: inherit;
-    font-weight: bold;
-
-}
-
-.button_submit:hover{
-    background-color: #92cdeb;
-}
 
 /* End Buttons */
 /* Start Main page */
-.heroscreen_section{
-    background-size: 70%;
-    background-color: #F9F8F3;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
 
-.heroscreen_section h1{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 55px;
-    color: #2F3846;
-    margin-bottom: 20px;
-    margin-top: 140px;
-}
-
-.heroscreen_section .subheading{
-    color: #6C7E9B;
-    margin-bottom: 80px;
-    letter-spacing: 1px;
-    font-size: 23px;
-    font-family: Georgia, sans-serif;
-}
-
-.features_section{
-    background-color: #2b4361;
-    color: white;
-    padding: 40px 10px;
-}
-
-.features_section .section_heading{
-    color: #ffffff;
-}
-
-.feature_text{
-    text-align: center;
-    font-family: GothamPro, sans-serif;
-    color: #dfe2e7;
-    position: relative;
-}
-
-.feature_divider:after{
-    content: "";
-    position: absolute;
-    right: -20px;
-    top: 0;
-    width: 1px;
-    height: 110px;
-    color: #fff;
-    background-color: #fff;
-}
-    
-.features_section .feature_item{
-    padding: 0;
-    margin: 0;
-}
-
-.features_section .feature_icon{
-    margin: 0 auto;
-    margin-bottom: 30px;
-    max-height: 40px;
-}
-
-.features_section .feature_hands{
-    max-height: 40px;
-
-}
-
-.features_section .feature_contract{
-    max-height: 40px;
-}
-
-.seo_section .section_heading{
-    font-size: 28px;
-    letter-spacing: 1.5px;
-    margin-top: 32px;
-    margin-bottom: 18px;
-}
 
 /* End Main page */ 
 /* Start About us page */ 
-.aboutus_section{
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
 
-.aboutus_item{
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.aboutus_text_block{
-    margin-top: 20px;
-    font-family: "GothamPro", sans-serif;
-    font-size: 17px;
-}
-
-.aboutus_text_block h3{
-    margin-bottom: 20px;
-    font-size: 24px;
-    font-weight: 600;
-    color: #000000;
-}
 
 
 /* End About us page */ 
 /* Start Services page */ 
-.services_section{
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
 
-.service_item{
-    font-size: 18px;
-    color: #393939;
-    margin-top: 30px;
-    padding-top: 30px;
-}
-
-.service_item_line{
-    display: none;
-    margin: 0 auto;
-    width: 44%;
-    border-bottom: 1px solid #393939;
-}
-
-.service_item_line_lg{
-    display: block;
-    margin: 0 auto;
-    width: 44%;
-    border-bottom: 1px solid #393939;
-}
-
-.service_item a{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    text-align: center;
-    height: 100%;
-    padding-bottom: 50px;
-}
-
-.service_icon {
-    margin-bottom: auto;
-    
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    -webkit-transition: -webkit-transform 0.3s;
-    transition: -webkit-transform 0.3s;
-    -o-transition: transform 0.3s;
-    transition: transform 0.3s;
-    transition: transform 0.3s, -webkit-transform 0.3s;
-}
-
-.service_item:hover .service_icon {
-    -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-            transform: scale(1.2);
-}
-
-.service_text{
-    flex-grow: 1;
-    line-height: 1.3;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-
-}
 
 /* End Services page */
-/* Start Service Item page */
-.service_item_section{
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.service_item_block{
-    color: #797979;
-    font-family: 'Gotham Pro', sans-serif;
-    line-height: 1.46;
-}
-
-blockquote {
-    border-left: 2px solid #797979;
-    padding-left: 40px;
-    margin-left: -13px;
-}
-
-blockquote p{
-    color: #797979;
-    margin-bottom: 23px;
-}
-
-.service_item_block ul{
-    list-style: none;
-}
-
-.service_item_block ul li::before {
-  color: #006b6e;  
-  /* color of bullet or square */
-
-  content: "\2022"; 
-  /* Unicode of character to precede the list item */
-
-  font-size: 1em; 
-  /* em or %*/
- 
-  padding-right: 1.1225em; 
-  /* use em*/
-
-  position: relative;
-  top: 0em; 
-  /* use em or % */
-
-}
-
-
-
-/* End Service Item page */
-/* Start Law list page */
-.lawlinks_section{
-    padding-top: 40px;
-    padding-bottom: 60px;
-}
-
-.lawlinks_section .section_heading{
-    font-size: 40px;
-    color: #2f3846;
-    margin-bottom: 40px;
-    font-family: "Georgia", sans-serif;
-}
-
-ul.lawlist{
-    list-style: none;
-}
-
-.lawlist li{
-    position: relative;
-    font-size: 16px;
-    margin-bottom: 30px;
-    padding-left: 20px;
-    color: #797979;
-}
-
-.lawlist li::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: -45px;
-    transform: translateY(-50%);
-    width: 35px;
-    height: 35px;
-    background: url(assets/img/svg/trident.svg) center/contain no-repeat;
-}
-
-.lawlist li a:hover{ 
-    text-decoration: underline;
-}
-
-.lawlist li span:hover{ 
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-/* End Law list page */
 /* Start Conatcts page */
-.contact_form_section{
-    background-color: #2B4261;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
 
-.contact_form_box{
-    font-family: "GothamPro", sans-serif;
-    background-color: #fff;
-    padding: 50px 40px 25px 40px;
-    -webkit-border-radius: 40px;
-    border-radius: 40px;
-}
 
-.contact_form_section .section_heading{
-    font-size: 40px;
-    color: #2f3846;
-    margin-bottom: 40px;
-    font-family: "Georgia", sans-serif;
-}
-
-.contact_form_section input{
-    max-width: 150px;
-}
-
-.contact_heading{
-    font-size: 36px;
-    font-family: Georgia, sans-serif;
-    letter-spacing: 1.5px;
-    color: #000000;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    text-align: center;
-}
-
-.form_text{
-    display: block;
-    vertical-align: bottom;
-    margin-bottom: 20px;
-    color: #40597a;
-}
-
-.wpcf7-text{
-    margin-top: -2px;
-    font: inherit;
-    border: none;
-    color: #40597a;
-    border-bottom: 2px solid #d2deeb;
-    outline: none;
-    text-align: center;
-}
-
-.form_hint{
-    display: block;
-    text-align: center;
-    font-size: 14px;
-    font-weight: bold;
-    color: #c6cfda;
-    margin-bottom: 0;
-}
-
-.form_hint_link{
-    margin-left: 30px;
-    color: #8dbcf1;
-}
-
-.form_hint_link:hover{
-    text-decoration: underline;
-}
 /* End Conatcts page */
-
-
-
 /*** Start Media query ***/
 /* Start min-width: 992px and max-width: 1199px */
 @media (min-width: 992px) and (max-width: 1199px)  {
-.heroscreen_section{
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0 right;
-}
-
-.heroscreen_section h1{
-    margin-top: 60px;
-}
 
 
 }/* End min-width: 992px and max-width: 1199px */
 /* Start max-width: 991px*/
 @media (max-width: 991px)  {
 
-.heroscreen_section{
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0 right;
-}
 
-.heroscreen_section h1{
-    margin-top: 60px;
-}
-
-.feature_divider:after{
-    display: none;
-}
 
 } /* End max-width: 991px*/
 /* Start max-width: 767px */
 @media (max-width: 767px)  {
-
-.heroscreen_section{
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0 right;
-}
-
-.heroscreen_section h1{
-    margin-top: 40px;
-}
-
-.callback:hover {
-    border-left: 8px solid #6C7E9B;
-    border-right: 8px solid #6C7E9B;
-}
-
-.service_item_line{
-    width: 34%;
-    display: block;
-}
 
 
 
@@ -791,59 +192,6 @@ ul.lawlist{
 /* Start max-width: 575px */
 @media (max-width: 575px)  {
 
-.heroscreen_section{
-    background-image:none!important;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0 0;
-}
-
-.heroscreen_section h1{
-    font-size: 46px;
-    margin-top: 40px;
-}
-
-
-.heroscreen_section .subheading{
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-
-.callback{
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-bottom: 40px;
-}
-
-.callback:hover {
-    border-left: 4px solid #6C7E9B;
-    border-right: 4px solid #6C7E9B;
-}
-
-.callback_text{
-    font-size: 18px;
-    letter-spacing: 1.2px;
-}
-
-.footer .contacts_item{
-    padding-left: 10px;
-}
-
-.contact_form_box{
-    background-color: #fff;
-    padding: 25px 15px 25px 15px;
-    -webkit-border-radius: 30px;
-    border-radius: 30px;
-}
-
-.lawlinks_section .section_heading{
-    font-size: 30px;
-    margin-bottom: 30px;
-}
-
-.service_item_line{
-    width: 26%;
-}
 
 
 } /* End max-width: 575px */
