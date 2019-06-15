@@ -294,22 +294,28 @@ a:hover{
 	margin-top: 50px;
 }
 
-.founder_item{
-	padding: 50px;
+.aboutus_section .section_heading{
+	margin-top: 0px;
 }
 
-.founder_item_image_box img{
-	background-color: #C8CFE1;
-	border-radius: 50%;
-	width: 242px;
-	height: 242px;
-	margin: auto;
+.founder_item{
+	padding: 40px;
+}
+
+.founders_item_image_box{
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.founders_item_image_box img{
+	max-height: 400px;
 }
 
 .founder_item h3{
 	color: #3158af;
 	font-family: 'San Francisco Text Semibold';
 	font-size: 21px;
+	margin-bottom: 10px;
 }
 
 /* End About us page */ 
@@ -392,7 +398,7 @@ a:hover{
 .section_heading h2{
 	color: #3158af;
 	font-family: 'San Francisco Text Semibold';
-	font-size: 52px;
+	font-size: 44px;
 }
 
 .contact_block{
