@@ -1,4 +1,4 @@
-<?php /* Template Name: Main page */ ?>
+<?php /* Template Name: Marketing page */ ?>
 <?php get_header(); ?>
 
 

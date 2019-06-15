@@ -1,4 +1,4 @@
-<?php /* Template Name: Main page */ ?>
+<?php /* Template Name: About us page */ ?>
 <?php get_header(); ?>
 
 

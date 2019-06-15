@@ -7,7 +7,7 @@
 
 	<meta name="description" content="centurion group">
 	
-	<title></title>
+	<title><?php bloginfo('name'); ?><?php wp_title("|"); ?></title>
 	<?php wp_head(); ?>
 </head>
 
@@ -15,23 +15,28 @@
 
 <header class="header">
 	<div class="container">
-		<div class="row justify-content-between align-items-center">
-			<div class="burger_open_box d-lg-none col-md-1 col-sm-3 col-3 text-center">
-				<span class="burger_open d-lg-none" id="burger_open">&#9776;</span>
-			</div>
-			<div class="logotype col-lg-1 col-md-2 col-sm-6 col-6 text-center">
+		<div class="row header_logo_row">
+			<div class="logotype col-lg-2 col-md-2 col-sm-6 col-6 text-center">
 				<?php if ( has_custom_logo() ) : the_custom_logo(); endif; ?>	
+			</div>		
+		</div>
+	</div>
+	<hr class="header_divider">
+	<div class="container">
+		<div class="row header_menu_row">
+			<div class="burger_open_box d-md-none col-md-1 col-sm-3 col-3 text-center">
+				<span class="burger_open d-md-none" id="burger_open">&#9776;</span>
 			</div>
-			<div class="main_menu col-lg-7 d-none d-lg-block text-center">
+			<div class="main_menu col-lg-12 d-none d-md-block">
 				<?php wp_nav_menu( array('theme_location' => 'main_menu') ); ?>
 			</div>
-			
 		</div>
 	</div>
 	<div id="burger_nav" class="burger_nav">
 		<span class="burger_close" id="burger_close">&times;</span>
 		<?php wp_nav_menu( array('theme_location' => 'main_menu') ); ?>
 	</div>
+	<hr class="header_divider">
 </header>
 
 <main id="main" class="main" role="main">
