@@ -68,7 +68,6 @@ a:hover{
 
 /* Start Header and Footer */
 .header{
-	margin-bottom: 50px;
 	padding-top: 20px;
 	background-color: #ffffff;	
 }
@@ -104,8 +103,6 @@ a:hover{
 	right: 0;
 	margin: auto;
 }
-
-
 
 .footer_copyright_row{
 	font-family: "Open Sans";
@@ -254,7 +251,13 @@ a:hover{
 
 /* End Buttons */
 /* Start Main page */
-
+.heroscreen_section{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 500px;
+}
 
 /* End Main page */ 
 /* Start About us page */ 
@@ -262,10 +265,62 @@ a:hover{
 
 
 /* End About us page */ 
-/* Start Services page */ 
+/* Start Goals page */ 
+.goals_heroscreen{
+	background: linear-gradient( rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4) ), url(assets/img/goals_bg.jpg);
+	-webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 600px;
+}
+
+.goals_heroscreen .page_heading{
+	margin-top: 200px;
+}
+
+.goals_heroscreen .page_heading h1{
+	color: #ffffff;
+}
+
+.goals_heroscreen .section_subtitle{
+	color: #ffffff;
+	font-size: 16px;
+	font-family: 'San Francisco Text Regular';
+}
+
+.goals_heroscreen .section_subtitle strong{
+	color: #ffffff;
+	font-size: 16px;
+	font-family: 'San Francisco Text Semibold';
+}
 
 
-/* End Services page */
+.ukraine_map, .switzerland_map{
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    min-height: 400px;
+    max-height: 600px;
+    position: relative;
+}
+
+.logotype_on_map img{
+	max-width: 140px;
+	height: auto;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+/* End Goals page */
 /* Start Conatcts page */
 .page_heading{
 	margin-top: 30px;

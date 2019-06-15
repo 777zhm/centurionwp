@@ -46,40 +46,6 @@
 			<?php echo do_shortcode( '[contact-form-7 id="21" title="main_contact_form"]' ); ?>
 		</div>
 	</div>
-
-	<div class="row justify-content-center text-center">
-		<div class="col-md-12 section_heading">
-			<h2>FAQ</h2>
-		</div>
-		<div class="col-md-6 section_subtitle">
-			<p>Centurion is a Swiss-based trading company. With a proven personal track record behind us, <strong>we will engage in trading oil products and softs across regions</strong> as well as with customers that we have acquired in the 30+ years of combined trading experience.</p>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-md-12 faq_block">
-			<div class="faq_item">
-				<h3 class="faq_question">Faq question</h3>
-				<p class="faq_answer"></p>
-			</div>
-			<div class="faq_item">
-				<h3 class="faq_question">Faq question</h3>
-				<p class="faq_answer"></p>
-			</div>
-			<div class="faq_item">
-				<h3 class="faq_question">Faq question</h3>
-				<p class="faq_answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-			</div>
-			<div class="faq_item">
-				<h3 class="faq_question">Faq question</h3>
-				<p class="faq_answer"></p>
-			</div>
-			<div class="faq_item">
-				<h3 class="faq_question">Faq question</h3>
-				<p class="faq_answer"></p>
-			</div>
-		</div>
-	</div>
 </div>
 
 <?php get_footer(); ?>
