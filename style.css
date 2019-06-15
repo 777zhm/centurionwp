@@ -7,6 +7,8 @@ Version: 1.00
 Text Domain: centurion
 */
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+
 @font-face {
 	font-family: 'San Francisco Text Regular';
 	src: url('assets/fonts/SFText/SFUIText-Regular.eot');
@@ -66,6 +68,7 @@ a:hover{
 
 /* Start Header and Footer */
 .header{
+	margin-bottom: 50px;
 	padding-top: 20px;
 	background-color: #ffffff;	
 }
@@ -77,6 +80,7 @@ a:hover{
 }
 
 .footer{
+	margin-top: 50px;
 	padding-top: 20px;
 	background-color: #fcf9ff;
 }
@@ -263,6 +267,126 @@ a:hover{
 
 /* End Services page */
 /* Start Conatcts page */
+.page_heading{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.page_heading h1, .page_heading h2{
+	color: #3158af;
+	font-family: 'San Francisco Text Bold';
+	font-size: 52px;
+}
+
+.section_subtitle{
+	margin-bottom: 50px;
+}
+
+.section_heading{
+	margin-top: 50px;
+	margin-bottom: 12px;
+}
+
+.section_heading h2{
+	color: #3158af;
+	font-family: 'San Francisco Text Semibold';
+	font-size: 52px;
+}
+
+.contact_block{
+	margin-bottom: 50px;
+}
+
+.right_border{
+	border-right: 1px solid rgba(142, 148, 157, 0.3)
+}
+
+.contact_item_icon_box{
+	min-height: 43px;
+	margin-top: 32px;
+	margin-bottom: 22px;
+	position: relative;
+}
+
+.contact_item_icon{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	max-height: 43px;
+}
+
+.contact_item_heading{
+	color: #333333;
+	font-family: 'San Francisco Text Bold';
+	font-size: 21px;
+}
+
+.contacts_link{
+	color: #666666;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.contact_form_block{
+	margin-bottom: 50px;
+}
+
+.contact_form_block label{
+	text-align: left;
+	color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.1px;
+}
+
+.contact_form_block input{
+	margin-top: 10px;
+	border-radius: 4px;
+	border: 1px solid #dddfe1;
+	height: 48px;
+	width: 816px;
+}
+
+.contact_form_block input[type=submit]{
+	width: 200px;
+}
+
+.contact_form_block textarea{
+	margin-top: 10px;
+	border-radius: 4px;
+	border: 1px solid #dddfe1;
+	height: 125px;
+	width: 816px;
+}
+
+.faq_block{
+	margin-bottom: 10px;
+}
+
+.faq_item{
+	border-radius: 4px;
+	border: 1px solid #e3e5e7;
+	padding: 34px 30px 22px 30px;
+	margin-bottom: 20px;
+}
+
+.faq_question{
+	color: #333333;
+	font-family: 'San Francisco Text Semibold';
+	font-size: 21px;
+}
+
+.faq_answer{
+	color: #666666;
+	font-family: 'San Francisco Text Regular';
+	font-size: 16px;
+}
 
 
 /* End Conatcts page */
@@ -275,7 +399,9 @@ a:hover{
 /* Start max-width: 991px*/
 @media (max-width: 991px)  {
 
-
+.right_border{
+	border-right: 1px solid rgba(142, 148, 157, 0)
+}
 
 } /* End max-width: 991px*/
 /* Start max-width: 767px */

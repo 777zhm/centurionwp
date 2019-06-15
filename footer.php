@@ -10,7 +10,13 @@
 				<?php wp_nav_menu( array('theme_location' => 'main_menu') ); ?>
 			</div>
 			<div class="col-lg-2 social_menu">
-				<a class="social_item" href="#"><img class="img img-fluid" src="<?php assets_url('img/svg/fb_icon.svg') ?>" alt="social_icon"></a>
+				<?php $link = get_field('admin_fb_link', 'theme_settings'); ?>
+				<?php if( $link ): 
+					$link_url = $link['url'];
+					$link_title = $link['title'];
+				?>
+				<a class="social_item" href="<?php echo esc_url($link_url); ?>" target="_blank"><img class="img img-fluid" src="<?php assets_url('img/svg/fb_icon.svg') ?>" alt="social_icon"></a>
+				<?php endif; ?>
 			</div>
 		</div>
 		<div class="row footer_copyright_row">
