@@ -17,6 +17,8 @@
 				?>
 				<a class="social_item" href="<?php echo esc_url($link_url); ?>" target="_blank"><img class="img img-fluid" src="<?php assets_url('img/svg/fb_icon.svg') ?>" alt="social_icon"></a>
 				<?php endif; ?>
+
+				<a class="social_item" href="twitter" target="_blank"><img class="img img-fluid" src="<?php assets_url('img/svg/twitter_icon.svg') ?>" alt="social_icon"></a>
 			</div>
 		</div>
 		<div class="row footer_copyright_row">

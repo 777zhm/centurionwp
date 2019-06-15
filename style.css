@@ -84,6 +84,14 @@ a:hover{
 	background-color: #fcf9ff;
 }
 
+.social_menu{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
 .social_menu .social_item{
 	display: block;
 	position: relative;
@@ -91,6 +99,7 @@ a:hover{
 	border-radius: 50%;
 	height: 40px;
 	width: 40px;
+	margin-right: 8px;
 
 	box-shadow: 0 2px 14px rgba(0, 0, 0, 0.07);
 }
@@ -296,6 +305,13 @@ a:hover{
 
 .aboutus_section .section_heading{
 	margin-top: 0px;
+}
+
+.aboutus_item_image_box{
+	
+}
+.aboutus_item_image_box img{
+
 }
 
 .founder_item{

@@ -22,24 +22,24 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="section_heading">
-						<h2>Oil trade</h2>
+						<h2>Oil</h2>
 					</div>
 					<div class="section_subtitle">
 						<p>We are close to our customer.  In a trading environment where marginality has consistently eroded and where large trading houses are forced into large positions taking on paper, enormous physical volume term contracts, we at Centurion have decided to take another angle.</p>
 						<p>Proximity with our customers, be it when offering risk solutions, breaking bulk for effective shipment sizes, diversified supplies, enables us to understand their core demands.  We tailor-make solutions fit for every different customer.  Participating in niche markets, which are mostly left on the side by large trading houses, we even find cooperation possibilities with these trading houses.</p>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<img class="img img-fluid" src="<?php assets_url('img/placeholder_square.png') ?>" alt="placeholder_square">
+				<div class="col-md-6 aboutus_item_image_box">
+					<img class="img img-fluid" src="<?php assets_url('img/oil_trade.jpg') ?>" alt="oil_trade">
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6">
-					<img class="img img-fluid" src="<?php assets_url('img/placeholder_square.png') ?>" alt="placeholder_square">
+					<img class="img img-fluid aboutus_item_image_box" src="<?php assets_url('img/soft_trade.jpg') ?>" alt="soft_trade">
 				</div>
 				<div class="col-md-6">
 					<div class="section_heading">
-						<h2>Softs trade</h2>
+						<h2>Softs</h2>
 					</div>
 					<div class="section_subtitle">
 						<p>With a dedicated team of professionals in both Geneva and Kiev, Centurion is developing its softs desk.  Innovative financial instruments, down on the ground presence and thorough knowledge of local and international market players, gives Centurion a great base to trade softs.</p>
