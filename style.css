@@ -7,14 +7,30 @@ Version: 1.00
 Text Domain: centurion
 */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
 
 
-body {
+html, body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	background-color: #ffffff;
+	color: #333333;
 }
+
+/*.company_colors{
+	color: #ffffff;
+	color: #fcf9ff;
+	color: #dddfe1;
+	color: #dab578;
+	color: rgba(142, 148, 157, 0.3);
+	color: #333333;
+	color: #666666;
+	color: #677283;
+	color: #999999;
+	color: #3158af;
+	color: #004493;
+	color: #0c1729;
+}*/
 
 a{
 	color: inherit;
@@ -25,9 +41,59 @@ a:hover{
 	text-decoration: none;
 }
 
-h1, h2, h3, h4, h5{
-	font-family: 'Roboto', sans-serif;
+h1{
+	font-size: 4.6rem;
+	font-weight: 700;
+	color: #3158af;
 }
+
+h2{
+	font-size: 3.6rem;
+	font-weight: 700;
+	color: #3158af;
+}
+
+h3{
+	font-size: 2.8rem;
+	font-weight: 700;
+	color: #3158af;
+}
+
+h4{
+	font-size: 2.2rem;
+	font-weight: 600;
+}
+
+h5{
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+
+h6{
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+
+strong{
+	font-weight: 600;
+}
+
+
+.page_heading{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+
+.section_subtitle{
+	margin-bottom: 50px;
+}
+
+.section_heading{
+	margin-top: 50px;
+	margin-bottom: 12px;
+}
+
 
 /* Start Header and Footer */
 .header{
@@ -109,7 +175,7 @@ h1, h2, h3, h4, h5{
 /* Start Main Menu */
 .main_menu {
 	text-align: left;
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 .main_menu ul {
@@ -121,14 +187,14 @@ h1, h2, h3, h4, h5{
 .main_menu ul li {
 	display: inline-block;
 	margin-left: 26px;
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 .main_menu ul li a {
 	display: inline-block;
 	position: relative;
 	padding: 5px 0 5px;
-	font-size: 1em;
+	font-size: 1rem;
 	text-transform: capitalize;
 	color: #0c1729;
 }
@@ -163,7 +229,7 @@ h1, h2, h3, h4, h5{
 /* Start Mobile Menu */
 .burger_open_box {
 	text-align: right;
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 .burger_open {
@@ -212,7 +278,7 @@ h1, h2, h3, h4, h5{
 	display: block;
 	text-decoration: none;
 	color: #F8F8F9;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 }
 
 .burger_nav a:hover{
@@ -221,73 +287,45 @@ h1, h2, h3, h4, h5{
 /* End Mobile Menu */
 /* Start Buttons */
 
+
+
 /* End Buttons */
-/* Start Main page */
+/* Start heroscreen section */
 .heroscreen_section{
+	background: linear-gradient( rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4) ), url(assets/img/main_page_bg.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    min-height: 500px;
+    min-height: 600px;
+    color: #ffffff;
 }
 
-.mainpage_heroscreen{
+.heroscreen_section h1.section_heading{
+	color: #ffffff;
+	margin-top: 160px;
+	text-align: center;
+}
+
+.heroscreen_section .section_subheading{
+	text-align: center;
+}
+
+
+.mainpage_heroscreen_section{
 	background: linear-gradient( rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4) ), url(assets/img/main_page_bg.jpg);
-	-webkit-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    min-height: 600px;
 }
 
-.mainpage_heroscreen .page_heading{
-	margin-top: 200px;
-}
-
-.mainpage_heroscreen .page_heading h1{
-	color: #ffffff;
-}
-
-.mainpage_heroscreen .section_subtitle{
-	color: #ffffff;
-	font-size: 16px;
-}
-
-.mainpage_heroscreen .section_subtitle strong{
-	color: #ffffff;
-	font-size: 16px;
-	font-family: 'Roboto', sans-serif;
-}
-
-/* End Main page */ 
-/* Start About us page */ 
-.aboutus_heroscreen{
+.aboutus_heroscreen_section{
 	background: linear-gradient( rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4) ), url(assets/img/goals_bg.jpg);
-	-webkit-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    min-height: 600px;
 }
 
-.aboutus_heroscreen .page_heading{
-	margin-top: 200px;
+.goals_heroscreen_section{
+	background: linear-gradient( rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4) ), url(assets/img/goals_bg.jpg);
 }
 
-.aboutus_heroscreen .page_heading h1{
-	color: #ffffff;
-}
-
-.aboutus_heroscreen .section_subtitle{
-	color: #ffffff;
-	font-size: 16px;
-}
-
-.aboutus_heroscreen .section_subtitle strong{
-	color: #ffffff;
-	font-size: 16px;
-	font-family: 'Roboto', sans-serif;
-}
+/* End heroscreen section */ 
+/* Start About us page */ 
 
 .aboutus_section{
 	margin-top: 50px;
@@ -295,13 +333,6 @@ h1, h2, h3, h4, h5{
 
 .aboutus_section .section_heading{
 	margin-top: 0px;
-}
-
-.aboutus_item_image_box{
-	
-}
-.aboutus_item_image_box img{
-
 }
 
 .founder_item{
@@ -318,41 +349,12 @@ h1, h2, h3, h4, h5{
 }
 
 .founder_item h3{
-	color: #3158af;
-	font-family: 'Roboto', sans-serif;
-	font-size: 21px;
 	margin-bottom: 10px;
 }
 
 /* End About us page */ 
 /* Start Goals page */ 
-.goals_heroscreen{
-	background: linear-gradient( rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4) ), url(assets/img/goals_bg.jpg);
-	-webkit-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    min-height: 600px;
-}
 
-.goals_heroscreen .page_heading{
-	margin-top: 200px;
-}
-
-.goals_heroscreen .page_heading h1{
-	color: #ffffff;
-}
-
-.goals_heroscreen .section_subtitle{
-	color: #ffffff;
-	font-size: 16px;
-}
-
-.goals_heroscreen .section_subtitle strong{
-	color: #ffffff;
-	font-size: 16px;
-	font-family: 'Roboto', sans-serif;
-}
 
 .ukraine_map, .switzerland_map{
     -webkit-background-size: contain;
@@ -380,38 +382,18 @@ h1, h2, h3, h4, h5{
 
 /* End Goals page */
 /* Start Conatcts page */
-.page_heading{
-	margin-top: 30px;
-	margin-bottom: 10px;
-}
-
-.page_heading h1, .page_heading h2{
-	color: #3158af;
-	font-family: 'Roboto', sans-serif;
-	font-size: 52px;
-}
-
-.section_subtitle{
+.page_title_section{
+	text-align: center;
 	margin-bottom: 50px;
 }
 
-.section_heading{
-	margin-top: 50px;
-	margin-bottom: 12px;
-}
-
-.section_heading h2{
-	color: #3158af;
-	font-family: 'Roboto', sans-serif;
-	font-size: 44px;
-}
-
-.contact_block{
+.contacts_section{
 	margin-bottom: 50px;
+	text-align: center;
 }
 
 .right_border{
-	border-right: 1px solid rgba(142, 148, 157, 0.3)
+	border-right: 1px solid rgba(142, 148, 157, 0.3);
 }
 
 .contact_item_icon_box{
@@ -433,15 +415,11 @@ h1, h2, h3, h4, h5{
 
 .contact_item_heading{
 	color: #333333;
-	font-family: 'Roboto', sans-serif;
-	font-size: 21px;
 }
 
 .contacts_link{
 	color: #666666;
-	font-size: 16px;
 	font-weight: 400;
-	line-height: 26px;
 }
 
 .contact_form_block{
@@ -475,29 +453,6 @@ h1, h2, h3, h4, h5{
 	height: 125px;
 	width: 816px;
 }
-
-.faq_block{
-	margin-bottom: 10px;
-}
-
-.faq_item{
-	border-radius: 4px;
-	border: 1px solid #e3e5e7;
-	padding: 34px 30px 22px 30px;
-	margin-bottom: 20px;
-}
-
-.faq_question{
-	color: #333333;
-	font-family: 'Roboto', sans-serif;
-	font-size: 21px;
-}
-
-.faq_answer{
-	color: #666666;
-	font-size: 16px;
-}
-
 
 /* End Conatcts page */
 /* Start Bubbles */
@@ -587,8 +542,7 @@ h1, h2, h3, h4, h5{
     -ms-flex-direction: column;
     flex-direction: column;
     color: #185477;
-    font-size: 32px;
-    font-weight: 300
+    font-size: 2rem;
 }
 
 .box .percent .percent-count {
@@ -598,8 +552,6 @@ h1, h2, h3, h4, h5{
 }
 
 .box .percent .percent-count p {
-    font-size: 16px;
-    font-weight: 300;
     opacity: .8
 }
 

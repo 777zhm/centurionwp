@@ -2,14 +2,14 @@
 <?php get_header(); ?>
 
 <section>
-	<div class="heroscreen_section goals_heroscreen">
+	<div class="heroscreen_section goals_heroscreen_section">
 		<div class="container-fluid">
 			<div class="row justify-content-center">
-				<div class="col-md-12 page_heading text-center">
-					<h1>Goals & plans</h1>
+				<div class="col-md-12">
+					<h1 class="section_heading">Goals & plans</h1>
 				</div>
-				<div class="col-md-6 section_subtitle text-center">
-					<p>Centurion is a Swiss-based trading company. With a proven personal track record behind us, <strong>we will engage in trading oil products and softs across regions</strong> as well as with customers that we have acquired in the 30+ years of combined trading experience.</p>
+				<div class="col-md-6">
+					<p class="section_subheading">Centurion is a Swiss-based trading company. With a proven personal track record behind us, <strong>we will engage in trading oil products and softs across regions</strong> as well as with customers that we have acquired in the 30+ years of combined trading experience.</p>
 				</div>
 			</div>
 		</div>
