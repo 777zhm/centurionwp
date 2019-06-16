@@ -36,7 +36,7 @@
 		<span class="burger_close" id="burger_close">&times;</span>
 		<?php wp_nav_menu( array('theme_location' => 'main_menu') ); ?>
 	</div>
-	<hr class="header_divider">
+
 </header>
 
 <main id="main" class="main" role="main">
