@@ -22,7 +22,7 @@
 			<div class="row">
 				<div class="col-md-4 contact_item right_border">
 					<div class="contact_item_icon_box">
-						<img class="im img-fluid contact_item_icon" src="<?php assets_url('img/svg/location_icon.svg') ?>" alt="contact_icon">
+						<img class="img img-fluid contact_item_icon" src="<?php assets_url('img/svg/location_icon.svg') ?>" alt="contact_icon">
 					</div>
 					<h3 class="contact_item_heading">Address</h3>
 					<?php $link = get_field('admin_address_link', 'theme_settings'); ?>
@@ -35,14 +35,14 @@
 				</div>
 				<div class="col-md-4 contact_item right_border">
 					<div class="contact_item_icon_box">
-						<img class="im img-fluid contact_item_icon" src="<?php assets_url('img/svg/telephone_icon.svg') ?>" alt="contact_icon">
+						<img class="img img-fluid contact_item_icon" src="<?php assets_url('img/svg/telephone_icon.svg') ?>" alt="contact_icon">
 					</div>
 					<h3 class="contact_item_heading">Phone</h3>
 					<a class="contacts_link" href="tel:<?php the_field('admin_tel', 'theme_settings'); ?>"><?php the_field('admin_tel', 'theme_settings'); ?></a>
 				</div>
 				<div class="col-md-4 contact_item">
 					<div class="contact_item_icon_box">
-						<img class="im img-fluid contact_item_icon" src="<?php assets_url('img/svg/email_icon.svg') ?>" alt="contact_icon">
+						<img class="img img-fluid contact_item_icon" src="<?php assets_url('img/svg/email_icon.svg') ?>" alt="contact_icon">
 					</div>
 					<h3 class="contact_item_heading">Email</h3>
 					<a class="contacts_link" href="mailto:<?php the_field('admin_email', 'theme_settings'); ?>"><?php the_field('admin_email', 'theme_settings'); ?></a>
